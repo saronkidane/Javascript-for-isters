@@ -67,3 +67,10 @@ let isAuth = false;
  * Declare relevant variables according to the following scenario
  * John Juma of age 45, is a new student doing software development course. He has a high score of 89.87 and his nickname is johny
  */
+
+var f_Name = "John";
+var l_name = "Juma";
+var number = 45;
+var course = "software development";
+var exam_score = 89.87;
+var nickname = "johnny";
