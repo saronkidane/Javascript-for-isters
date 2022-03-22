@@ -1,55 +1,69 @@
+console.log("Hello there");
+
 /**
  * Variables
- * a container for data (identifier)
+ * a container of data (identifier)
  */
 
-//declaring a variable
-var username = "baraka";
-let lastName = "mulumia";
-const PI = 3.141;
+//declare a variable
+var username = "BARAKA";
+let lastName = "Mulumia";
 
-//assigning to variables;
+//assigning values to a variable
 // username = "baraka";
 // lastName = "mulumia";
 
-//use variables;
+//use variable
+console.log(username);
+console.log(lastName);
+
+//re-asigning a variable
+username = "jack";
 console.log(username);
 
 /**
- * Rules of naming variables
- * variables  can only contain letters, numbers, underscores or dollar signs
- * Even though they can contain numbers variables cannot start with numbers
- * variables are case sensitive
- * you cannot re-declare a variable;
- * variables should not have spaces
- * variables should not be javascript  keywords
+ * RULES OF NAMING VARIABLES
+ * 1. Variables can only contain letters, underscores or dollar signs
+ * 2. Even though the variables can contain numbers they cannot start with a number
+ * 3. you cannot re declare variables
+ * 4. variables should not have spaces
+ * 5. variables should not be js keywords
+ * 6. variables are case sensitive
  */
-// let age;
-// let Age;
 
 //kebab case
-let current_user_name;
+let current_user_info;
+
 //camel case
-let currentUserName;
+let currentUserInfo;
 
-//DATA TYPES
+let age = 67;
+// let Age = 56;
+
 /**
- * Strings - textual content
+ * DATA TYPES
  */
-let name = "Ariana";
 
 /**
- * number -- numerical data
+ * String - textual content
+ *
  */
-let age = 56;
+let message = "Hello how are you";
 
 /**
- * boolean --  something that evaluates to true of false;
+ * number
+ */
+let Age = 56;
+let height = 8.9;
+
+/**
+ * Boolean  - true or false
+ *
  */
 let isRaining = true;
 let isAuth = false;
 
 /**
- * declare relevant variables according to the following scenario.
- * John Juma of age 45, is a new student  doing a software development course. Their high score is 89.87 and his nickname is johnny.
+ * Declare relevant variables according to the following scenario
+ * John Juma of age 45, is a new student doing software development course. He has a high score of 89.87 and his nickname is johny
  */
