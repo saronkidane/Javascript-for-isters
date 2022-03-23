@@ -47,9 +47,21 @@ let age = 56;
  * boolean --  something that evaluates to true of false;
  */
 let isRaining = true;
-let isAuth = false;
+let isAuth = false; 
 
 /**
  * declare relevant variables according to the following scenario.
  * John Juma of age 45, is a new student  doing a software development course. Their high score is 89.87 and his nickname is johnny.
  */
+var username ="john";
+var lastname = "juma"
+var AGE ="45";
+let nickname= "johnny";
+let is_john_in_softwaredevelopmentcourse="true";
+
+//use variables
+console.log(username);
+console.log(lastName);
+console.log(AGE);
+console.log(nickname);
+console.log(is_john_in_softwaredevelopmentcourse);
