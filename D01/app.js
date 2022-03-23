@@ -53,3 +53,11 @@ let isAuth = false;
  * declare relevant variables according to the following scenario.
  * John Juma of age 45, is a new student  doing a software development course. Their high score is 89.87 and his nickname is johnny.
  */
+
+let firstName = "John";
+let lastName = "Juma";
+let course = "software development";
+let age = 45;
+let highScore = 89.87;
+let nickname = "johnny";
+let isNewStudent = true;
