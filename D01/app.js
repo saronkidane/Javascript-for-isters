@@ -53,6 +53,8 @@ let isAuth = false;
  * declare relevant variables according to the following scenario.
  * John Juma of age 45, is a new student  doing a software development course. Their high score is 89.87 and his nickname is johnny.
  */
+
+//variables
 var username ="john";
 var lastname = "juma"
 var AGE ="45";
