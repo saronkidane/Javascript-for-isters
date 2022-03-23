@@ -1,4 +1,4 @@
-//null - references something that does not exist
+//null - reference to something that does not exist;
 let username = null;
 
 //undefined - a variable that has not been assigned
@@ -77,9 +77,11 @@ console.log(result);
 let exp = a ** b;
 console.log(exp);
 
-//modulus - remainder operator
+// modulus - remainder operator
 let rem = a % b;
 console.log(rem);
 
-//write a program that asks a user to enter their age and outputs the year they were born in
 let userAge = prompt("What is your age? ");
+console.log(userAge);
+
+//write a program that asks the user to enter their age and outputs the year they were born in
