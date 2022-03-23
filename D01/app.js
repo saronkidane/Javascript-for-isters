@@ -60,8 +60,4 @@ let nickname= "johnny";
 let is_john_in_softwaredevelopmentcourse="true";
 
 //use variables
-console.log(username);
-console.log(lastName);
-console.log(AGE);
-console.log(nickname);
-console.log(is_john_in_softwaredevelopmentcourse);
+console.log(username,lastName,AGE,nickname,is_john_in_softwaredevelopmentcourse);
