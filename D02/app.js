@@ -4,75 +4,56 @@ let username = null;
 //undefined - a variable that has not been assigned
 let age;
 
-//strings
+//Strings
 //declaration
-let email = "baraka@exammple.com";
-let message = "Hello, there";
+let email = "barakamulumia@gmail.com";
+let message = "Hello, There";
 
-//concatenation
-let greeting = "Hello " + " There";
+//concatenation  - addind strings together
+let greeting = "Hello " + "There";
 console.log(greeting);
 
-//length
+//Length of a string
 let lengthOfEmail = email.length;
 console.log(lengthOfEmail);
 
 //getting characters
+let languauge = "PYTHON";
+console.log(languauge[3]);
+console.log(languauge.charAt(0));
 
-let lang = "PYTHON";
-console.log(lang[3]);
-console.log(lang[lang.length - 1]);
+// uppercase
+let ucName = email.toUpperCase();
+console.log(ucName);
+//lowercase
+let lcName = email.toLowerCase();
+console.log(lcName);
 
-let ucName = lang.toUpperCase();
-let lcName = lang.toLowerCase();
-
+//slice
 let name1 = "Jack of all trades";
-let name2 = name1.slice(4, 9);
-
+let name2 = name1.slice(0, 5);
 console.log(name1);
 console.log(name2);
 
-//template string
+//includes
+let hasAll = name1.includes("ball");
+console.log(hasAll);
 
+//template strings
 let firstName = "Dwayne";
-
-let sentence = `
-Hello how are you ${firstName} 
-${90 + 100}
-`;
+let sentence = `Hello how are you ${firstName}`;
 console.log(sentence);
 
 let myApp = `
 <div>
-<h1>Hello I am Who ${firstName}</h1>
+<h1>Hello i am ${firstName}</h1>
 </div>
 `;
 document.write(myApp);
 
-//string methods
-
 /**
- * uppercase
- * length
- * indexOF
- * slice
- * substr
- * replace
- *
+ * operations
  */
-
-//operators
-/**
- * + - * ** / %
- */
-
-//PEMDAS
-
-//Type conversion
-//type checking
-
-//template strings -html
-
 let a = 10;
 let b = 34;
 
