@@ -82,6 +82,7 @@ let rem = a % b;
 console.log(rem);
 
 let userAge = prompt("What is your age? ");
-console.log(userAge);
+// console.log(userAge);
 
 //write a program that asks the user to enter their age and outputs the year they were born in
+console.log(2022 - userAge);

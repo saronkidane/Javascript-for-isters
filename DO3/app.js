@@ -49,36 +49,48 @@ let password = "123Asd";
 
 let usernameInput = prompt("Enter username");
 
-// if (usernameInput == username) {
-//   alert("You are correct, Enter the password");
+//username check;
+if (usernameInput == username) {
+  alert("Username correct enter password");
+  let passwordInput = prompt("Enter password");
 
-//   //nested if
-
-// } else {
-//   alert("Wrong username please try again");
-// }
-
-// let passwordInput = prompt("Enter password");
-
-// if (passwordInput == password) {
-//   alert("Welcome ON BOARD");
-// } else {
-//   alert("Wrong password please try again");
-// }
-
-//if less than 18 - price 15
-// if 18 and 35 - price = 20
-// if above 35 - price = 50
-
-let age = 10;
-let price;
-
-if (age < 18) {
-  price = 15;
-} else if (age < 35) {
-  price = 20;
+  if (passwordInput == password) {
+    alert("Welcome ON BOARD");
+  } else {
+    alert("Wrong password Try again");
+  }
 } else {
-  price = 50;
+  alert("Wrong username please try again");
 }
 
-//TASKS
+let userAge = prompt("What is your age? ");
+
+if (userAge >= 18) {
+  alert("adult");
+} else {
+  alert("child");
+}
+
+//if below 18  - child
+// 18 upto 35 - youth
+// 35 and above - too old
+
+if (userAge < 18) {
+  console.log("child");
+} else if (userAge <= 35) {
+  console.log("youth");
+} else {
+  console.log("adult");
+}
+
+let role = prompt("User role");
+
+/**------- Tasks ----------*/
+/**------- ONE ----------*/
+//Write a JavaScript program that accept two integers and display the larger.
+
+/**------- TWO ----------*/
+//Write a javascript program to process loans based on the following scenarios
+//1. an applicant is eligible for a loan if they have a good credit score and high income
+//2. an applicant is eligible for a loan if they have a good credit and do not have a criminal record
+//3. an applicant is eligible for a loan if they have a good credit score or high income
