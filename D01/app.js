@@ -68,6 +68,14 @@ let isAuth = false;
  * John Juma of age 45, is a new student doing software development course. He has a high score of 89.87 and his nickname is johny
  */
 
+<<<<<<< HEAD
+var f_Name = "John";
+var l_name = "Juma";
+var number = 45;
+var course = "software development";
+var exam_score = 89.87;
+var nickname = "johnny";
+=======
 let firstName = "John";
 let lastName = "Juma";
 let course = "software development";
@@ -75,3 +83,4 @@ let age = 45;
 let highScore = 89.87;
 let nickname = "johnny";
 let isNewStudent = true;
+>>>>>>> upstream/evening-class
