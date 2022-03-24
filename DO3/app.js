@@ -69,17 +69,12 @@ if (userAge < 18) {
 //switch
 let role = prompt("User role");
 
-if (role == "Admin") {
-	console.log(101);
-} else if (role == "Student") {
-	console.log(301);
-} else if (role == "Trainer") {
-	console.log(406);
-} else if (role == "Faculty") {
-	console.log(109);
-} else {
-	console.log(000);
-}
+/**------- Tasks ----------*/
+/**------- ONE ----------*/
+//Write a JavaScript program that accept two integers and display the larger.
+
+
+/**------- TWO ----------*/
 //Write a javascript program to process loans based on the following scenarios
 //1. an applicant is eligible for a loan if they have a good credit score and high income
 //2. an applicant is eligible for a loan if they have a good credit and do not have a criminal record
