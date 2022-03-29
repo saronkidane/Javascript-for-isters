@@ -6,7 +6,7 @@ if (role == "admin") {
 	console.log(301);
 } else if (role == "trainer") {
 	console.log(406);
-} else if (role == "faculity") {
+} else if (role == "faculty") {
 	console.log(109);
 } else {
 	console.log(0);
@@ -53,11 +53,11 @@ if (usernameInput === username && passwordInput === password) {
 //or operator (||)
 //evaluates to true if any of the statements is true, if all statements are false it will evaluate to false.
 age = 15;
-let hasParentalPermision = true;
-if (age > 18 || hasParentalPermision) {
+let hasParentalPermission = true;
+if (age > 18 || hasParentalPermission) {
 	alert("You are allowed");
 } else {
-	alert("Seek parental permision");
+	alert("Seek parental permission");
 }
 
 //Write a javascript program to process loans based on the following scenarios
@@ -70,23 +70,23 @@ let hasCriminalRecord = false;
 let hasHighIncome = true;
 //1
 if (hasGoodCreditScore && !hasCriminalRecord) {
-	console.log("Elligible for a loan");
+	console.log("Eligible for a loan");
 } else {
-	console.log("NOT Elligible for a loan");
+	console.log("NOT Eligible for a loan");
 }
 
 //1
 if (hasGoodCreditScore && hasHighIncome) {
-	console.log("Elligible for a loan");
+	console.log("Eligible for a loan");
 } else {
-	console.log("NOT Elligible for a loan");
+	console.log("NOT Eligible for a loan");
 }
 
 //3
 if (hasGoodCreditScore || hasHighIncome) {
-	console.log("Elligible for a loan");
+	console.log("Eligible for a loan");
 } else {
-	console.log("NOT Elligible for a loan");
+	console.log("NOT Eligible for a loan");
 }
 
 //Tenary operator (?)
