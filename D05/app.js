@@ -60,3 +60,41 @@ for (let x = 1; x < 100; x++) {
 //Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task.
 
 //Bonus - Write a js program to find prime numbers
+//Solution Day 05
+let num;
+
+do {
+	num = prompt("Enter a number greater than 100?", 0);
+} while (num <= 100 && num);
+
+//do while
+let x = 20;
+do {
+	console.log(x);
+	x++;
+} while (x < 10);
+
+//break -- break the loop
+for (let i = 0; i <= 100; i++) {
+	if (i > 50) {
+		break;
+	} else {
+		console.log(i);
+	}
+}
+
+//continue -- skip current iteration
+for (let i = 0; i <= 5; i++) {
+	if (i == 3) {
+		continue;
+	}
+	console.log(i);
+}
+
+//ex2
+for (let i = 0; i <= 100; i++) {
+	if (i % 2 == 1) {
+		continue;
+	}
+	console.log(i);
+}
