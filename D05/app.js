@@ -59,6 +59,19 @@ for (let x = 1; x < 100; x++) {
 
 //Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task.
 
+//do while  -
+let v = 20;
+do {
+	console.log(v);
+	v++;
+} while (v <= 10);
+
+let numberInput;
+
+do {
+	numberInput = prompt("Enter a number greater than 100 ", 0);
+} while (numberInput <= 100 && numberInput);
+
 //Bonus - Write a js program to find prime numbers
 //Solution Day 05
 let num;
