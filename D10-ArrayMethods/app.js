@@ -28,7 +28,7 @@ console.log(fruits);
 //insertion
 fruits.splice(1, 0, "Maize");
 
-//includes -checks if an array has the given item and returns true if yes and no if not.
+//includes -checks if an array has the given item and returns true if yes and false if not.
 fruits = ["Apple", "Mango", "Tropical"];
 let hasApple = fruits.includes("Apple");
 console.log(hasApple);
