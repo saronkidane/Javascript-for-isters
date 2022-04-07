@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>My Image Gallery</title>
+	</head>
+	<body>
+		<nav class="bg-slate-900 p-4 text-gray-50">
+			<p class="h1 text-4xl text-center">
+				Institute of Software Technologies
+			</p>
+		</nav>
+		<div id="root" class="flex flex-wrap gap-3 p-2">
+			<figure class="bg-gray-800 rounded-md p-8 dark:bg-slate-800 w-96">
+				<img
+					class="w-48 h-48 rounded-full mx-auto"
+					src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+					alt=""
+					width="384"
+					height="512"
+				/>
+				<div class="pt-6 te space-y-4">
+					<figcaption class="font-medium">
+						<div class="text-sky-500 dark:text-sky-400 text-center">
+							Sarah Dayan
+						</div>
+						<div
+							class="text-slate-100 dark:text-slate-500 text-center"
+						>
+							Staff Engineer, Algolia
+						</div>
+					</figcaption>
+				</div>
+			</figure>
+		</div>
+	</body>
+</html>
