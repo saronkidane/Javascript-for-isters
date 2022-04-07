@@ -1,6 +1,6 @@
 let developers = [
 	{
-		name: " Baraka Mulumia",
+		name: "Baraka Mulumia",
 		role: "Front End Lead",
 		img: "https://avatars.githubusercontent.com/u/65751779?v=4",
 		dept: "front_end",
@@ -42,3 +42,46 @@ let developers = [
 		dept: "testing",
 	},
 ];
+
+function createDeveloperCard(developer) {
+	return `
+    	<figure class="bg-gray-800 rounded-md p-8 dark:bg-slate-800 w-96">
+				<img
+					class="w-48 h-48 rounded-full mx-auto"
+					src="${developer.img}"
+					alt=""
+					width="384"
+					height="512"
+				/>
+				<div class="pt-6 te space-y-4">
+					<figcaption class="font-medium">
+						<div class="text-sky-500 dark:text-sky-400 text-center">
+							${developer.name}
+						</div>
+						<div
+							class="text-slate-100 dark:text-slate-500 text-center"
+						>
+							${developer.role}, ${developer.dept}
+						</div>
+					</figcaption>
+				</div>
+	    </figure>
+    
+    `;
+}
+
+function paintDevelopers(developers) {
+	let cards = developers.map((dev) => createDeveloperCard(dev)).join("");
+	document.getElementById("root").innerHTML = cards;
+}
+
+paintDevelopers(developers);
+
+document.getElementById("front-end").addEventListener("click", () => {
+	let frontEnd = developers.filter((dev) => dev.dept === "front_end");
+
+	paintDevelopers(frontEnd);
+});
+
+//filter -designer, backend
+// implement search
