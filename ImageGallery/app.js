@@ -92,3 +92,14 @@ document.getElementById("all").addEventListener("click", () => {
 });
 
 //implement a search
+
+document.getElementById("search").addEventListener("change", (e) => {
+	//get what the user typed
+	let searchValue = e.target.value;
+
+	//filter developers whose name include the search value
+	let searchResult = developers.filter((dev) => {
+		return dev.name.toLowerCase().includes(searchValue.toLowerCase());
+	});
+	paintDevelopers(searchResult);
+});
